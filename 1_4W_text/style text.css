@@ -1,0 +1,30 @@
+div {
+    color: #444;
+}
+
+.heading {
+    text-transform: uppercase;
+    /* text-align: center; */
+    letter-spacing: 2px;
+    text-shadow: 
+        1px 1px#ffffff,
+        2px 2px;
+}
+
+.underheading {
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.heading, .underheading {
+    text-align: center;
+}
+
+p {
+    text-indent: 3em;
+    text-align: justify;
+}
+
+p::first-letter {
+    font-size: 20px;
+}

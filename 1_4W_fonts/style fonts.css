@@ -1,0 +1,31 @@
+*{
+    font-family: RobotoSlab-Regular, serif;
+}
+
+.heading {
+    font:600 40px RobotoSlab-Regular;
+    letter-spacing: 1.5px;
+}
+
+.translation {
+    font: italic 20px EBGaramond-Italic;
+}
+
+.translation span {
+    font-variant: small-caps;
+    font-style: normal;
+}
+
+.text {
+    line-height: 2em;
+}
+
+@font-face {
+    font-family: RobotoSlab-Regular;
+    src: url(/FONTS/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: EBGaramond-Italic;
+    src: url(FONTS/EB_Garamond/static/EBGaramond-Italic.ttf);
+}

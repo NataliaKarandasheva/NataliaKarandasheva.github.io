@@ -1,0 +1,50 @@
+.animation {
+    background-color: #f00;
+    width: 150px;
+    height: 150px;
+
+    /* transform: translateX(100px) translateY(100%) scale(2) rotate(145deg); */
+    
+    /* animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: linear; */
+
+    /* animation: 
+    translateX(100px) 3s linear, 
+    translateY(100%) 3s linear, 
+    scale(2) rotate(145deg) 3s linear; */
+
+    animation: move 3s linear infinite alternate forwards;
+    
+    transition: background-color .5s linear;
+
+    /* transition-property: background-color;
+    transition-duration: .5s; */
+}
+
+.animation:hover {
+    background-color: #ff0;
+}
+    /* можно не указывать from, если начальные свойства есть в начале */
+
+    @keyframes move {
+    from {transform: translateX(0);
+    }
+    25% {transform: translateX(100px);
+    }
+    50% {transform: translateX(100px) translateY(100%);
+    }
+    75%, 100% {transform: translateX(100px) translateY(100%) scale(2) rotate(145deg);
+    }
+}
+
+/* @keyframes move2 {
+    to {
+       transform: translateY(100%); 
+        }
+}
+@keyframes move3 {
+    to {
+       transform: scale(2) rotate(145deg);
+    }
+} */
