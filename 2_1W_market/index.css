@@ -4,15 +4,10 @@ body {
   font: 15px Arial, sans-serif;
 }
 
-/* .border {
-    border: 3px dotted yellow;
-} */
-
 .cat {
   display: inline-block;
   width: 300px;
   height: 600px;
-  /* background-color: pink; */
   margin: 4px 2px;
   border-radius: 10px;
   padding: 10px;
@@ -29,14 +24,9 @@ body {
 
 .img {
   position: absolute;
-  /* vertical-align: bottom; */
-  /* margin-bottom: 10px; */
-  /* display: block; */
   border-radius: 10px;
   bottom: 0;
   width: 100%;
-  /* height: 150px; */
-  /* margin:auto auto 90% auto; */
 }
 
 img:hover {
@@ -45,28 +35,19 @@ img:hover {
 }
 
 .information {
-  /* float: inline-end; */
-  /* float: top; */
-  /* position: static; */
-  /* display: block; */
-  /* position: absolute; */
-  /* vertical-align: bottom; */
-  /* text-align: center; */
-  /* border: 1px red solid; */
   margin: 0 auto;
   width: 90%;
   height: calc(50% - 10px);
 }
 
 .name {
-  /* position: static; */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
 a {
-  color: #3757c5;
+  color: #0a2375;
   text-decoration: none;
 }
 
@@ -109,4 +90,21 @@ a {
 
 .grade {
   color: rgb(255, 200, 0);
+}
+
+.button {
+  border: 2px solid #e8e8e8;
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  padding: auto;
+  margin: 10px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.button:hover {
+  transform: scale(1.3);
+  background-color: rgb(255, 235, 170);
 }

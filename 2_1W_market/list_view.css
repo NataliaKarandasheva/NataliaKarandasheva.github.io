@@ -1,112 +1,19 @@
-body {
-  margin: 0;
-  padding: 0;
-  font: 15px Arial, sans-serif;
-}
-
-/* .border {
-    border: 3px dotted yellow;
-} */
-
-.cat {
-  display: inline-block;
+.block {
+  float: left;
   width: 300px;
-  height: 600px;
-  /* background-color: pink; */
-  margin: 4px 2px;
-  border-radius: 10px;
-  padding: 10px;
+  height: 100%;
+  margin: auto auto 0;
+  padding: 2px;
+}
+
+.cat-block {
   vertical-align: top;
-  border: 1px solid #e8e8e8;
+  display: list-item;
+  width: 1000px;
+  height: 300px;
 }
 
-.picture {
-  width: 290px;
-  height: 50%;
-  position: relative;
-  margin: 1px auto;
-}
-
-.img {
-  position: absolute;
-  /* vertical-align: bottom; */
-  /* margin-bottom: 10px; */
-  /* display: block; */
-  border-radius: 10px;
-  bottom: 0;
-  width: 100%;
-  /* height: 150px; */
-  /* margin:auto auto 90% auto; */
-}
-
-img:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-.information {
-  /* float: inline-end; */
-  /* float: top; */
-  /* position: static; */
-  /* display: block; */
-  /* position: absolute; */
-  /* vertical-align: bottom; */
-  /* text-align: center; */
-  /* border: 1px red solid; */
-  margin: 0 auto;
-  width: 90%;
-  height: calc(50% - 10px);
-}
-
-.name {
-  /* position: static; */
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-a {
-  color: #3757c5;
-  text-decoration: none;
-}
-
-.name:hover {
-  color: red;
-}
-
-.cat-type {
-  font-weight: 900;
-  font-size: 17px;
-  color: rgb(128, 128, 128);
-  text-decoration: underline;
-}
-
-.price {
-  color: rgb(169, 1, 1);
-  font-weight: 500;
-  font-size: 20px;
-  text-align: right;
-}
-
-.old-price {
-  color: rgb(84, 84, 84);
-  text-decoration: line-through;
-  font-size: 16px;
-  font-weight: 300;
-  text-align: right;
-}
-
-.describe {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: initial;
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  text-align: justify;
-  margin-top: -7px;
-}
-
-.grade {
-  color: rgb(255, 200, 0);
+.position {
+  max-width: 290px;
+  margin: 10px auto;
 }
